@@ -1,0 +1,2793 @@
+@media (min-width: 320px) and (max-width: 420px){
+  #button {
+    display: none;
+   
+  }
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+   
+ 
+}
+
+/*****************************************/
+.sidee{
+width: 50%;
+height:70px;
+float: left;
+
+}
+
+
+  .side-img img{
+    width:90%;
+    height: 70px;
+    float: left;
+    margin-left: 15%;
+  }
+.main{
+
+float: left;
+width: 50%;
+height: 70px;
+  }
+  .home-nav  ,
+.product-nav ,
+.about-nav  {
+  display: none;
+}  
+
+.serach{
+
+float: left;
+width: 60%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 40%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+/********************************/
+        .inrto-images{
+          width: 100%;
+          height:350px;
+          
+      }
+      .inrto-image img{
+          width: 100%;
+          height:350px;
+          z-index: +20;
+          
+      }
+    
+      .text-block {
+        position: absolute;
+       top:250px; 
+        color: white;
+       width:100%;
+       height: 230px;
+       
+      
+      }
+      .block1 {
+       width:100%;
+       height:100px;
+     
+      }
+      .block1 h1{
+        width:50%;
+        height: 100px;
+        margin-left: 40%;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      .block2 {
+        width:100%;
+        height:130px;
+       
+       }
+       .signup{
+        position: absolute;
+        top: 60%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+        border:2px solid whitesmoke;
+        padding:5px 30px 5px 30px;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        color: black;
+       }
+       .signup:hover{
+         
+        color: teal;
+        
+      }
+      .be-sup{
+        position: absolute;
+        top: 75%;
+        left: 45%;
+        border:2px solid whitesmoke;
+        padding:5px 24px 5px 5px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        background-color:transparent;
+      }
+      .be-sup:hover{
+        background-color: black;
+        color: whitesmoke;
+        border:2px solid black;
+      }
+   /********************************/
+   .social{ 
+      display: none;
+    position: fixed;
+    top:80%;
+    right:20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    
+  }
+  /********************************/
+  .product h1{
+    text-align: center;
+    font-size: 30px;
+}
+.product p{
+  text-align: center;
+  margin: 2%;
+}
+.items-part{
+  width:80%;
+  height:4500px;
+  margin-left:10%;
+
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  background-color: whitesmoke;
+
+  margin-top: 30px;
+  
+}
+  /********************************/
+  .about{
+    width: 100%;
+    height: 500px;
+    position: relative;
+   
+}
+.a-img{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  height: 200px;
+
+}
+.about img{
+    width:100%;
+    height: 200px;
+}
+.a-header{
+  width: 55%;
+  float: left;
+  height: 200px;
+
+}
+.about h1{
+ text-align: center;
+ margin-top: 10%;
+ font-size: 40px;
+ font-family: fantasy;
+   
+}
+.a-header2{
+  width: 100%;
+  float: left;
+  height: 200px;
+
+}
+.a-header2 p{
+  margin-top: 5%;
+   text-align: center;
+   
+}
+.a-header3{
+  width: 100%;
+  float: left;
+  height: 100px;
+ 
+}
+.a-header3 b{
+ 
+  position: absolute;
+  top: 70%;
+  float: left;
+  margin-left: 31%;
+  text-align: center;
+    border:2px solid black;
+    padding:5px 30px 5px 30px;
+    font-weight: bold;
+    font-size:15px;
+    background-color: rgb(30, 43, 43);
+    cursor: pointer;
+    color:white;
+    border-radius: 20px;
+    
+  }
+  .about b:hover{
+   
+    color: teal;
+    
+  }
+/********************************/
+.flip-card {
+  background-color: transparent;
+  width: 92%;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10%;
+  
+}
+.flip-card-inner {
+  position: relative;
+  width: 69%;
+  margin-left: 15%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.team{
+  width: 100%;
+  height: 1000px; 
+}
+
+/***************************/
+.contact{
+  width: 100%;
+  height:700px;
+
+}
+#container{
+  width: 90%;
+  height:570px;
+  background-color: whitesmoke;
+  float: left;
+ margin-left: 5%;
+}
+.form{
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+
+  width:90%;
+  height:510px
+}
+.form input{
+  width: 90%;
+  height: 30px;
+  
+}
+.form textarea{
+  width: 90%;
+  height: 150px;
+ 
+}
+#btn-send {
+  width: 60%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color:black;
+  color:white;
+  cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 421px) and (max-width: 520px){
+  #button {
+    display: none;
+   
+  }
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 15%;
+height:70px;
+float: left;
+
+}
+.side-img img{
+  float: left;
+  margin-left: 0%;
+  width: 100%;
+  height:70px;
+}
+.main{
+
+float: left;
+width:85%;
+height: 70px;
+  }
+  
+.serach{
+
+float: left;
+width: 60%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 40%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:30%;
+font-size: 50px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 65%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+    display: none;
+  position: fixed;
+  top:80%;
+  right:20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:80%;
+height:4500px;
+margin-left:10%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:100%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 500px;
+  position: relative;
+ 
+}
+.a-img{
+width: 40%;
+float: left;
+margin-left: 5%;
+height: 200px;
+
+}
+.about img{
+  width:100%;
+  height: 200px;
+}
+.a-header{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 100%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 100%;
+float: left;
+height: 100px;
+
+}
+.a-header3 b{
+
+position: absolute;
+top: 70%;
+float: left;
+margin-left: 34%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.flip-card {
+background-color: transparent;
+width: 92%;
+height: 300px;
+perspective: 1000px;
+float: left;
+margin-left: 2%;
+margin-top: 10%;
+
+}
+.flip-card-inner {
+  position: relative;
+  width: 69%;
+  margin-left: 15%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.team{
+width: 100%;
+height: 1035px; 
+}
+
+/***************************/
+.contact{
+width: 100%;
+height:700px;
+
+}
+#container{
+width: 90%;
+height:570px;
+background-color: whitesmoke;
+float: left;
+margin-left: 5%;
+}
+.form{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+
+width:90%;
+height:510px
+}
+.form input{
+width: 90%;
+height: 30px;
+
+}
+.form textarea{
+width: 90%;
+height: 150px;
+
+}
+#btn-send {
+width: 60%;
+height: 35px;
+border-radius: 5px;
+font-size: 18px;
+padding: 5px;
+margin-top: 10px;
+background-color:black;
+color:white;
+cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 521px) and (max-width: 620px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 30%;
+height:70px;
+float: left;
+
+}
+.main{
+
+float: left;
+width: 70%;
+height: 70px;
+  }
+
+
+.serach{
+
+float: left;
+width: 60%;
+height: 70px;
+}
+.access{
+   
+    width: 40%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:30%;
+font-size: 50px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 65%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+    display: none;
+  position: fixed;
+  top:80%;
+  right:20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:70%;
+height:4300px;
+margin-left:15%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:100%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 10%;
+ 
+}
+.a-img{
+width: 50%;
+float: left;
+margin-left: 5%;
+height: 200px;
+
+}
+.about img{
+  width:100%;
+  height: 200px;
+}
+.a-header{
+width: 45%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 100%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 100%;
+float: left;
+height: 100px;
+
+}
+.a-header3 b{
+
+position: absolute;
+top: 70%;
+float: left;
+margin-left: 37%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.flip-card {
+  background-color: transparent;
+  width: 50%;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+  margin-left: 23%;
+  margin-top: 10%;
+  
+  }
+  .team{
+  width: 100%;
+  height: 1100px; 
+  }
+  
+
+/***************************/
+.contact{
+width: 100%;
+height:700px;
+
+}
+#container{
+width: 90%;
+height:570px;
+background-color: whitesmoke;
+float: left;
+margin-left: 5%;
+}
+.form{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+
+width:90%;
+height:510px
+}
+.form input{
+width: 90%;
+height: 30px;
+
+}
+.form textarea{
+width: 90%;
+height: 150px;
+
+}
+#btn-send {
+width: 60%;
+height: 35px;
+border-radius: 5px;
+font-size: 18px;
+padding: 5px;
+margin-top: 10px;
+background-color:black;
+color:white;
+cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 621px) and (max-width: 720px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+ 
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 30%;
+height:70px;
+float: left;
+
+}
+.main{
+
+float: left;
+width: 70%;
+height: 70px;
+  }
+
+
+.serach{
+
+float: left;
+width: 60%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 40%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:35%;
+font-size: 50px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 70%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+   
+  position: fixed;
+  top:80%;
+  right:10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: +1;
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:70%;
+height:4300px;
+margin-left:15%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:100%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 10%;
+ 
+}
+.a-img{
+width: 50%;
+float: left;
+margin-left: 5%;
+height: 200px;
+
+}
+.about img{
+  width:100%;
+  height: 200px;
+}
+.a-header{
+width: 40%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 100%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 100%;
+float: left;
+height: 100px;
+
+}
+.a-header3 b{
+
+position: absolute;
+margin-top: 10%;
+float: left;
+margin-left: 40%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.flip-card {
+background-color: transparent;
+width: 50%;
+height: 300px;
+perspective: 1000px;
+float: left;
+margin-left: 28%;
+margin-top: 10%;
+
+}
+.team{
+width: 100%;
+height: 1100px; 
+}
+
+/***************************/
+.contact{
+width: 100%;
+height:700px;
+
+}
+#container{
+width: 90%;
+height:570px;
+background-color: whitesmoke;
+float: left;
+margin-left: 5%;
+}
+.form{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+
+width:90%;
+height:510px
+}
+.form input{
+width: 90%;
+height: 30px;
+
+}
+.form textarea{
+width: 90%;
+height: 150px;
+
+}
+#btn-send {
+width: 60%;
+height: 35px;
+border-radius: 5px;
+font-size: 18px;
+padding: 5px;
+margin-top: 10px;
+background-color:black;
+color:white;
+cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 721px) and (max-width: 820px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 30%;
+height:70px;
+float: left;
+
+}
+.main{
+
+float: left;
+width: 50%;
+height: 70px;
+  }
+
+
+.serach{
+
+float: left;
+width: 70%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 30%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:35%;
+font-size: 50px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 70%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+   
+  position: fixed;
+  top:80%;
+  right:10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: +1;
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:80%;
+height:1600px;
+margin-left:10%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:30%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+margin-left: 2%;
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 10%;
+ 
+}
+.a-img{
+width: 50%;
+float: left;
+margin-left: 5%;
+height: 200px;
+
+}
+.about img{
+  width:100%;
+  height: 200px;
+}
+.a-header{
+width: 40%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 100%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 100%;
+float: left;
+height: 100px;
+
+}
+.a-header3 b{
+
+position: absolute;
+margin-top: 10%;
+float: left;
+margin-left: 40%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.flip-card {
+background-color: transparent;
+width: 40%;
+height: 300px;
+perspective: 1000px;
+float: left;
+margin-left: 30%;
+margin-top: 10%;
+
+}
+.team{
+width: 100%;
+height: 1100px; 
+}
+
+/***************************/
+.contact{
+width: 100%;
+height:700px;
+
+}
+#container{
+width: 90%;
+height:570px;
+background-color: whitesmoke;
+float: left;
+margin-left: 5%;
+}
+.form{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+
+width:90%;
+height:510px
+}
+.form input{
+width: 90%;
+height: 30px;
+
+}
+.form textarea{
+width: 90%;
+height: 150px;
+
+}
+#btn-send {
+width: 30%;
+height: 35px;
+border-radius: 5px;
+font-size: 18px;
+padding: 5px;
+margin-top: 10px;
+background-color:black;
+color:white;
+cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 821px) and (max-width: 920px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 30%;
+height:70px;
+float: left;
+
+}
+.main{
+
+float: left;
+width: 50%;
+height: 70px;
+  }
+
+
+.serach{
+
+float: left;
+width: 70%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 30%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:35%;
+font-size: 50px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 70%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+   
+  position: fixed;
+  top:80%;
+  right:10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: +1;
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:80%;
+height:1500px;
+margin-left:10%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:30%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+margin-left: 2%;
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 600px;
+  position: relative;
+ 
+}
+.a-img{
+width: 30%;
+float: left;
+margin-left: 15%;
+height: 600px;
+
+}
+.about img{
+  width:100%;
+  height: 600px;
+}
+.a-header{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header3 b{
+position: absolute;
+  top: 70%;
+float: left;
+margin-left: 20%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.flip-card {
+background-color: transparent;
+width: 35%;
+height: 300px;
+perspective: 1000px;
+float: left;
+margin-left: 34%;
+margin-top: 10%;
+
+}
+.team{
+width: 100%;
+height: 1200px; 
+}
+
+/***************************/
+.contact{
+width: 100%;
+height:700px;
+
+}
+#container{
+width: 90%;
+height:570px;
+background-color: whitesmoke;
+float: left;
+margin-left: 5%;
+}
+.form{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+
+width:90%;
+height:510px
+}
+.form input{
+width: 90%;
+height: 30px;
+
+}
+.form textarea{
+width: 90%;
+height: 150px;
+
+}
+#btn-send {
+width: 30%;
+height: 35px;
+border-radius: 5px;
+font-size: 18px;
+padding: 5px;
+margin-top: 10px;
+background-color:black;
+color:white;
+cursor: pointer;
+}
+/********************************/
+}
+/***************************************************/
+@media (min-width: 921px) and (max-width: 1021px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .nav1{
+    float: right;
+    width: 100%;
+    height:30px;
+
+}  
+
+.parent_nav1 .nav1{
+    float: right;
+    list-style: none;
+    width: 100%;
+    height:30px;
+}
+.parent_nav1 .nav1 ul li{
+    display: inline-block;
+    margin: 3px 10px 5px 15px ;
+    font-size: 14px;
+    
+    
+}
+
+/*****************************************/
+.parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+ 
+}
+/*****************************************/
+.sidee{
+width: 30%;
+height:70px;
+float: left;
+
+}
+.main{
+
+float: left;
+width: 50%;
+height: 70px;
+  }
+
+
+.serach{
+
+float: left;
+width: 70%;
+height: 70px;
+}
+.serach-box{
+  position: absolute;
+  top: 17%;
+  float: left;
+  margin-left: 5%;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #2f3640;
+  padding: 10px;
+ 
+} 
+.access{
+   
+    width: 30%;
+    height: 70px; 
+    position: relative;
+    display: inline-block;
+    
+}
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:35%;
+font-size: 65px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 70%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+   
+  position: fixed;
+  top:80%;
+  right:10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: +1;
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:80%;
+height:1500px;
+margin-left:10%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:30%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+margin-left: 2%;
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 600px;
+  position: relative;
+ 
+}
+.a-img{
+width: 30%;
+float: left;
+margin-left: 15%;
+height: 600px;
+
+}
+.about img{
+  width:100%;
+  height: 600px;
+}
+.a-header{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header3 b{
+position: absolute;
+  top: 70%;
+float: left;
+margin-left: 20%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.team{
+  width: 100%;
+  height: 700px; 
+}
+.team h2{
+  text-align: center;
+ 
+}
+.flip-card {
+  background-color: transparent;
+  width: 30%;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+  margin-top: 3%;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(30, 43, 43);
+  color: white;
+  transform: rotateY(180deg);
+}
+/********************************************/
+.social-team{
+    width: 100%;
+    height:50px;
+   
+}
+.s-team1{
+    float: left;
+    margin-left: 25%;
+    width:150px;
+    margin-top: 10%;
+}
+.s-team1 i{
+  width: 25%;
+ cursor: pointer;
+}
+.s-team2{
+  float: left;
+    margin-left: 25%;
+    width:150px;
+    margin-top: 10%;
+}
+.s-team2 i{
+  width: 25%;
+ cursor: pointer;
+}
+.s-team3{
+float: left;
+margin-left: 25%;
+width:150px;
+margin-top: 10%;
+}
+.s-team3 i{
+  width: 25%;
+ cursor: pointer;
+}
+.social-team i:hover{
+ 
+      opacity: 0.5;
+    
+}
+/*********************************************/
+
+.contact{
+    width: 100%;
+    height:700px;
+    
+}
+.contact h3{
+    text-align: center;
+    opacity: 0.5;
+}
+.contact h1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 70%;
+    height:570px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 15%;
+}
+.form{
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+
+    width:70%;
+    height:510px
+}
+.form input{
+  width: 90%;
+  height: 30px;
+ 
+ 
+  
+}
+.form textarea{
+  width: 90%;
+  height: 150px;
+
+}
+.form textarea:placeholder-shown{
+ font-size: 15px;
+ font-family: cursive;
+ padding-left: 2%;
+ padding-top: 1%;
+
+}
+.form label{
+  font-size: 18px ;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+#btn-send {
+  width: 35%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color:black;
+  color:white;
+  cursor: pointer;
+}
+#btn-send:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  border:1px solid white;
+}
+/*******************************************/
+}
+@media (min-width: 1022px) and (max-width: 1199px){
+  #button {
+    display: inline-block;
+    background-color: rgb(30, 43, 43);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  } 
+  .nav1{
+      float: right;
+      width: 100%;
+      height:30px;
+  
+  }  
+  
+  .parent_nav1 .nav1{
+      float: right;
+      list-style: none;
+      width: 100%;
+      height:30px;
+  }
+  .parent_nav1 .nav1 ul li{
+      display: inline-block;
+      margin: 3px 10px 5px 15px ;
+      font-size: 14px;
+      
+      
+  }
+/*******************************************************/
+
+/********************************/
+.inrto-images{
+  width: 100%;
+  height:550px;
+  position: relative;
+}
+.inrto-image img{
+  width: 100%;
+  height:550px;
+  z-index: +20;
+
+}
+.text-block {
+position: absolute;
+top:250px; 
+color: white;
+width:100%;
+height: 300px;
+
+}
+.block1 {
+width:100%;
+height:150px;
+
+}
+.block1 h1{
+width:70%;
+height: 150px;
+margin-left:35%;
+font-size: 65px;
+text-align: center;
+}
+
+.block2 {
+width:100%;
+height:150px;
+
+}
+.signup{
+position: absolute;
+top: 60%;
+left: 63%;
+transform: translate(-50%, -50%);
+border:2px solid whitesmoke;
+padding:5px 20px 5px 20px;
+font-weight: bold;
+font-size: 20px;
+background-color: whitesmoke;
+cursor: pointer;
+color: black;
+}
+.signup:hover{
+ 
+color: teal;
+
+}
+.be-sup{
+position: absolute;
+top: 55%;
+left: 70%;
+border:2px solid whitesmoke;
+padding:5px 10px 5px 10px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color:transparent;
+}
+.be-sup:hover{
+background-color: black;
+color: whitesmoke;
+border:2px solid black;
+}
+ /********************************/
+ .social{ 
+   
+  position: fixed;
+  top:80%;
+  right:10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: +1;
+}
+/********************************/
+.product h1{
+  text-align: center;
+  font-size: 30px;
+}
+.product p{
+text-align: center;
+margin: 2%;
+}
+.items-part{
+width:80%;
+height:1500px;
+margin-left:10%;
+
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width:30%;
+margin: auto;
+text-align: center;
+font-family: arial;
+float: left;
+background-color: whitesmoke;
+margin-left: 2%;
+margin-top: 30px;
+
+}
+/********************************/
+.about{
+  width: 100%;
+  height: 600px;
+  position: relative;
+ 
+}
+.a-img{
+width: 30%;
+float: left;
+margin-left: 15%;
+height: 600px;
+
+}
+.about img{
+  width:100%;
+  height: 600px;
+}
+.a-header{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.about h1{
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+font-family: fantasy;
+ 
+}
+.a-header2{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header2 p{
+margin-top: 5%;
+ text-align: center;
+ 
+}
+.a-header3{
+width: 55%;
+float: left;
+height: 200px;
+
+}
+.a-header3 b{
+position: absolute;
+  top: 70%;
+float: left;
+margin-left: 20%;
+text-align: center;
+  border:2px solid black;
+  padding:5px 30px 5px 30px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgb(30, 43, 43);
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+  
+}
+.about b:hover{
+ 
+  color: teal;
+  
+}
+/********************************/
+.team{
+  width: 100%;
+  height: 700px; 
+}
+.team h2{
+  text-align: center;
+ 
+}
+.flip-card {
+  background-color: transparent;
+  width: 30%;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+  margin-top: 3%;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 83%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(30, 43, 43);
+  color: white;
+  transform: rotateY(180deg);
+}
+/********************************************/
+.social-team{
+    width: 100%;
+    height:50px;
+   
+}
+.s-team1{
+    float: left;
+    margin-left: 25%;
+    width:150px;
+    margin-top: 10%;
+}
+.s-team1 i{
+  width: 25%;
+ cursor: pointer;
+}
+.s-team2{
+  float: left;
+    margin-left: 25%;
+    width:150px;
+    margin-top: 10%;
+}
+.s-team2 i{
+  width: 25%;
+ cursor: pointer;
+}
+.s-team3{
+float: left;
+margin-left: 25%;
+width:150px;
+margin-top: 10%;
+}
+.s-team3 i{
+  width: 25%;
+ cursor: pointer;
+}
+.social-team i:hover{
+ 
+      opacity: 0.5;
+    
+}
+/*********************************************/
+
+.contact{
+    width: 100%;
+    height:700px;
+    
+}
+.contact h3{
+    text-align: center;
+    opacity: 0.5;
+}
+.contact h1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 70%;
+    height:570px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 15%;
+}
+.form{
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+
+    width:70%;
+    height:510px
+}
+.form input{
+  width: 90%;
+  height: 30px;
+ 
+ 
+  
+}
+.form textarea{
+  width: 90%;
+  height: 150px;
+
+}
+.form textarea:placeholder-shown{
+ font-size: 15px;
+ font-family: cursive;
+ padding-left: 2%;
+ padding-top: 1%;
+
+}
+.form label{
+  font-size: 18px ;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+#btn-send {
+  width: 35%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color:black;
+  color:white;
+  cursor: pointer;
+}
+#btn-send:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  border:1px solid white;
+}
+/*******************************************/
+} 

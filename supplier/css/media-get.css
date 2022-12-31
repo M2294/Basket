@@ -1,0 +1,2006 @@
+@media (min-width:320px) and (max-width:420px){
+    
+  
+    .section{
+      width: 100%;
+      height: 1500px;
+      
+    }
+    /***********************************/
+    .nav1{
+      float: right;
+      width: 100%;
+      height:30px;
+  
+  }  
+  
+  .parent_nav1 .nav1{
+      float: right;
+      list-style: none;
+      width: 100%;
+      height:30px;
+  }
+  .parent_nav1 .nav1 ul li{
+      display: inline-block;
+      margin: 3px 10px 5px 15px ;
+      font-size: 14px;
+      
+      
+  }
+  /********************************/
+  .parent_nav2{
+    width:100%;
+    height:130px;
+    background-color: whitesmoke;
+   
+  }
+  /********************************/
+  .logo{
+    width: 20%;
+    height:70px;
+    float: left;
+    
+  }
+  .logo img{
+    width: 100%;
+    height:70px;
+    margin-left: 0% !important;
+  }
+  /********************************/
+  
+.main{
+
+    float: left;
+    width: 80%;
+    height: 70px;
+      }
+      .main-nav{
+        width: 100%;
+        height: 70px;
+        float: left;
+       
+      }
+     
+  
+  .home-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+  
+  }
+  .about-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+  .product-nav{
+    font-size: 0px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+   
+  }
+  .home-nav p ,
+   .product-nav p,
+   .about-nav  p{
+      margin-top:25%;
+      font-size: 12px;
+  }  
+  .main p a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-top: 35px;
+   
+   }
+  .main p a:hover{
+      background-color: rgb(30, 43, 43);
+      color: teal;
+      padding: 10px 16px  10px  16px  ;
+    } 
+  
+  
+      
+
+      /********************************/
+      .login{
+    
+        width: 100%;
+        height: 30px; 
+        position: relative;
+        display: inline-block;
+        
+    }
+    .login b{
+      float: left;
+      margin-left: 70%;
+      margin-top: 5%;
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  /********************************/
+  .head-part{
+    width: 100%;
+    height:300px;
+ position: relative;
+    
+} 
+.head-part img{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+/*****************************/
+  .get-started-part{
+    width: 100%;
+    height: 400px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 400px;
+
+}
+.get-started-img img{
+    width: 100%;
+    height: 200px;
+    margin-top: 50%;
+    margin-left: -1%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 100px;
+    float: left;
+  
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 250px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 250px;
+    float: left;
+
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+ 
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 35px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+
+
+
+}
+
+/*************************************************/
+@media (min-width:421px) and (max-width:520px){
+    .section{
+        width: 100%;
+        height: 1500px;
+        
+      }
+      /***********************************/
+      .nav1{
+        float: right;
+        width: 100%;
+        height:30px;
+    
+    }  
+    
+    .parent_nav1 .nav1{
+        float: right;
+        list-style: none;
+        width: 100%;
+        height:30px;
+    }
+    .parent_nav1 .nav1 ul li{
+        display: inline-block;
+        margin: 3px 10px 5px 15px ;
+        font-size: 14px;
+        
+        
+    }
+    /********************************/
+    .parent_nav2{
+        width:100%;
+        height:130px;
+        background-color: whitesmoke;
+       
+      }
+      /********************************/
+      .logo{
+        width: 20%;
+        height:70px;
+        float: left;
+        
+      }
+      .logo img{
+        width: 100%;
+        height:70px;
+        margin-left: 0% !important;
+      }
+      /********************************/
+      
+    .main{
+    
+        float: left;
+        width: 80%;
+        height: 70px;
+          }
+          .main-nav{
+            width: 100%;
+            height: 70px;
+            float: left;
+           
+          }
+         
+      
+      .home-nav{
+        font-size: 20px;
+        width:33.3%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+      
+      }
+      .about-nav{
+        font-size: 20px;
+        width:33.3%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+        
+        
+      }
+      .product-nav{
+        font-size: 0px;
+        width:33.3%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+       
+      }
+      .home-nav p ,
+       .product-nav p,
+       .about-nav  p{
+          margin-top:25%;
+          font-size: 15px;
+      }  
+      .main p a{
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(3, 3, 3);
+        margin-top: 35px;
+       
+       }
+      .main p a:hover{
+          background-color: rgb(30, 43, 43);
+          color: teal;
+          padding: 10px 16px  10px  16px  ;
+        } 
+      
+      
+          
+    
+          /********************************/
+          .login{
+        
+            width: 100%;
+            height: 30px; 
+            position: relative;
+            display: inline-block;
+            
+        }
+        .login b{
+          float: left;
+          margin-left: 75%;
+          margin-top: 5%;
+          cursor: pointer;
+          color: red;
+          font-weight: bold;
+          font-size: 20px;
+      }
+      /********************************/
+      .head-part{
+        width: 100%;
+        height:300px;
+     position: relative;
+        
+    } 
+    .head-part img{
+        width: 100%;
+        height: 300px;
+        opacity: .8;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .centered2 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        font-weight: bold;
+        
+      }
+      .get-started-part{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /*********************************/
+    
+    .get-started-img{
+        width:50%;
+        float: left;
+        height: 400px;
+    
+    }
+    .get-started-img img{
+        width: 90%;
+        height: 250px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    /*********************************/
+    
+    .get-started-b{
+        width:50%;
+        height: 100px;
+        float: left;
+     
+    }
+    /*********************************/
+    
+    .get-b{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+       
+    }
+    .get-b h1{
+        
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    
+    /*********************************/
+    
+    .get-started-b2{
+        width:50%;
+        height: 300px;
+        float: left;
+        
+    }
+    
+    .get-b2{
+        width:90%;
+        margin-left: 5%;
+        height: 250px;
+        float: left;
+    
+    }
+    
+    /*********************************/
+    
+    .signup-part{
+        width: 100%;
+        height: 300px;
+    
+    }
+    /*********************************/
+    
+    .signup-part-img{
+        width:50%;
+        float: left;
+        height: 300px;
+     
+    }
+    .signup-part-img img{
+        width: 50%;
+        height: 300px;
+        margin-left: 25%;
+    }
+    
+    /*********************************/
+    
+    .signup-part-b{
+        width:50%;
+        height: 150px;
+        float: left;
+    
+    }
+    
+    
+    .sign-b{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+     
+    }
+    
+    
+    .sign-b h1{
+        
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    /*********************************/
+    
+    .signup-part-b2{
+        width:50%;
+        height: 150px;
+        float: left;
+      
+    }
+    
+    .sign-b2{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+       
+    }
+    
+    
+    
+  /********************************/
+  }
+/*************************************************/
+@media (min-width:521px) and (max-width:620px){
+   
+  
+    .section{
+      width: 100%;
+      height: 1500px;
+      
+    }
+    /***********************************/
+    .nav1{
+      float: right;
+      width: 100%;
+      height:30px;
+  
+  }  
+  
+  .parent_nav1 .nav1{
+      float: right;
+      list-style: none;
+      width: 100%;
+      height:30px;
+  }
+  .parent_nav1 .nav1 ul li{
+      display: inline-block;
+      margin: 3px 10px 5px 15px ;
+      font-size: 14px;
+      
+      
+  }
+  /********************************/
+  .parent_nav2{
+    width:100%;
+    height:70px;
+    background-color: whitesmoke;
+   
+  }
+  /********************************/
+  .logo{
+    width: 20%;
+    height:70px;
+    float: left;
+    
+  }
+  .logo img{
+    width: 100%;
+    height:70px;
+    margin-left: 0% !important;
+  }
+  /********************************/
+  
+.main{
+
+    float: left;
+    width: 65%;
+    height: 70px;
+      }
+      .main-nav{
+        width: 100%;
+        height: 70px;
+        float: left;
+       
+      }
+     
+  
+  .home-nav{
+    font-size: 20px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+  
+  }
+  .about-nav{
+    font-size: 20px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+  .product-nav{
+    font-size: 0px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+   
+  }
+  .home-nav p ,
+   .product-nav p,
+   .about-nav  p{
+      margin-top:25%;
+      font-size: 18px;
+  }  
+  .main p a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-top: 35px;
+   
+   }
+  .main p a:hover{
+      background-color: rgb(30, 43, 43);
+      color: teal;
+      padding: 10px 16px  10px  16px  ;
+    } 
+  
+  
+      
+
+      /********************************/
+      .login{
+    
+        width: 15%;
+        height: 70px; 
+        position: relative;
+        display: inline-block;
+        
+    }
+    .login b{
+      float: left;
+      margin-left: 3%;
+      margin-top: 25%;
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  /********************************/
+  .head-part{
+    width: 100%;
+    height:300px;
+ position: relative;
+    
+} 
+.head-part img{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  .get-started-part{
+    width: 100%;
+    height: 400px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 400px;
+
+}
+.get-started-img img{
+    width: 90%;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 100px;
+    float: left;
+  
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 300px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 250px;
+    float: left;
+
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+ 
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+
+
+
+  
+}
+/********************************************************/
+@media (min-width:621px) and (max-width:720px){
+   
+    .section{
+        width: 100%;
+        height: 1500px;
+        
+      }
+      /***********************************/
+      .nav1{
+        float: right;
+        width: 100%;
+        height:30px;
+    
+    }  
+    
+    .parent_nav1 .nav1{
+        float: right;
+        list-style: none;
+        width: 100%;
+        height:30px;
+    }
+    .parent_nav1 .nav1 ul li{
+        display: inline-block;
+        margin: 3px 10px 5px 15px ;
+        font-size: 14px;
+        
+        
+    }
+    /********************************/
+    .parent_nav2{
+        width:100%;
+        height:70px;
+        background-color: whitesmoke;
+       
+      }
+      /********************************/
+      .logo{
+        width: 20%;
+        height:70px;
+        float: left;
+        
+      }
+      .logo img{
+        width: 100%;
+        height:70px;
+        margin-left: 0% !important;
+      }
+      /********************************/
+      
+    .main{
+    
+        float: left;
+        width: 65%;
+        height: 70px;
+          }
+          .main-nav{
+            width: 100%;
+            height: 70px;
+            float: left;
+           
+          }
+         
+      
+      .home-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+      
+      }
+      .about-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+        
+        
+      }
+      .product-nav{
+        font-size: 0px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+       
+      }
+      .home-nav p ,
+       .product-nav p,
+       .about-nav  p{
+          margin-top:15%;
+          font-size: 18px;
+      }  
+      .main p a{
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(3, 3, 3);
+        margin-top: 35px;
+       
+       }
+      .main p a:hover{
+          background-color: rgb(30, 43, 43);
+          color: teal;
+          padding: 10px 16px  10px  16px  ;
+        } 
+      
+      
+          
+    
+          /********************************/
+          .login{
+        
+            width: 15%;
+            height: 70px; 
+            position: relative;
+            display: inline-block;
+            
+        }
+        .login b{
+          float: left;
+          margin-left: 3%;
+          margin-top: 15%;
+          cursor: pointer;
+          color: red;
+          font-weight: bold;
+          font-size: 20px;
+      }
+      /********************************/
+      .head-part{
+        width: 100%;
+        height:300px;
+     position: relative;
+        
+    } 
+    .head-part img{
+        width: 100%;
+        height: 300px;
+        opacity: .8;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+      font-size: 25px;
+    }
+      .centered2 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        font-weight: bold;
+        
+      }  .get-started-part{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /*********************************/
+    
+    .get-started-img{
+        width:50%;
+        float: left;
+        height: 400px;
+    
+    }
+    .get-started-img img{
+        width: 90%;
+        height: 250px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    /*********************************/
+    
+    .get-started-b{
+        width:50%;
+        height: 100px;
+        float: left;
+      
+    }
+    /*********************************/
+    
+    .get-b{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+       
+    }
+    .get-b h1{
+        
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    
+    /*********************************/
+    
+    .get-started-b2{
+        width:50%;
+        height: 300px;
+        float: left;
+        
+    }
+    
+    .get-b2{
+        width:90%;
+        margin-left: 5%;
+        height: 250px;
+        float: left;
+    
+    }
+    
+    /*********************************/
+    
+    .signup-part{
+        width: 100%;
+        height: 300px;
+    
+    }
+    /*********************************/
+    
+    .signup-part-img{
+        width:50%;
+        float: left;
+        height: 300px;
+     
+    }
+    .signup-part-img img{
+        width: 50%;
+        height: 300px;
+        margin-left: 25%;
+    }
+    
+    /*********************************/
+    
+    .signup-part-b{
+        width:50%;
+        height: 150px;
+        float: left;
+    
+    }
+    
+    
+    .sign-b{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+     
+    }
+    
+    
+    .sign-b h1{
+        
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    /*********************************/
+    
+    .signup-part-b2{
+        width:50%;
+        height: 150px;
+        float: left;
+      
+    }
+    
+    .sign-b2{
+        width:90%;
+        margin-left: 5%;
+        height: 150px;
+        float: left;
+       
+    }
+    
+  }
+  /*****************************************************/
+@media (min-width:721px) and (max-width:820px){
+   
+  
+    .section{
+      width: 100%;
+      height: 1300px;
+      
+    }
+    /***********************************/
+    .nav1{
+      float: right;
+      width: 100%;
+      height:30px;
+  
+  }  
+  
+  .parent_nav1 .nav1{
+      float: right;
+      list-style: none;
+      width: 100%;
+      height:30px;
+  }
+  .parent_nav1 .nav1 ul li{
+      display: inline-block;
+      margin: 3px 10px 5px 15px ;
+      font-size: 14px;
+      
+      
+  }
+  /********************************/
+  .parent_nav2{
+    width:100%;
+    height:70px;
+    background-color: whitesmoke;
+   
+  }
+  /********************************/
+  .logo{
+    width: 20%;
+    height:70px;
+    float: left;
+    
+  }
+  .logo img{
+    width: 80%;
+    height:70px;
+    margin-left: 0% !important;
+  }
+  /********************************/
+  
+.main{
+
+    float: left;
+    width: 65%;
+    height: 70px;
+      }
+      .main-nav{
+        width: 100%;
+        height: 70px;
+        float: left;
+       
+      }
+     
+  
+  .home-nav{
+    font-size: 20px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+  
+  }
+  .about-nav{
+    font-size: 20px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+  .product-nav{
+    font-size: 0px;
+    width:32%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+   
+  }
+  .home-nav p ,
+   .product-nav p,
+   .about-nav  p{
+      margin-top:15%;
+      font-size: 18px;
+  }  
+  .main p a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-top: 35px;
+   
+   }
+  .main p a:hover{
+      background-color: rgb(30, 43, 43);
+      color: teal;
+      padding: 10px 16px  10px  16px  ;
+    } 
+  
+  
+      
+
+      /********************************/
+      .login{
+    
+        width: 15%;
+        height: 70px; 
+        position: relative;
+        display: inline-block;
+        
+    }
+    .login b{
+      float: left;
+      margin-left: 3%;
+      margin-top: 15%;
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  /********************************/
+  .head-part{
+    width: 100%;
+    height:300px;
+ position: relative;
+    
+} 
+.head-part img{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: bold;
+    
+  }  .get-started-part{
+    width: 100%;
+    height: 400px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 400px;
+
+}
+.get-started-img img{
+    width: 90%;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 100px;
+    float: left;
+  
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 300px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 250px;
+    float: left;
+
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+ 
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+
+}
+/********************************************************/
+@media (min-width:821px) and (max-width:920px){
+
+    .section{
+        width: 100%;
+        height:1300px;
+        
+      }
+      /***********************************/
+      .nav1{
+        float: right;
+        width: 100%;
+        height:30px;
+    
+    }  
+    
+    .parent_nav1 .nav1{
+        float: right;
+        list-style: none;
+        width: 100%;
+        height:30px;
+    }
+    .parent_nav1 .nav1 ul li{
+        display: inline-block;
+        margin: 3px 10px 5px 15px ;
+        font-size: 14px;
+        
+        
+    }
+    /********************************/
+    .parent_nav2{
+        width:100%;
+        height:70px;
+        background-color: whitesmoke;
+       
+      }
+      /********************************/
+      .logo{
+        width: 20%;
+        height:70px;
+        float: left;
+        
+      }
+      .logo img{
+        width: 80%;
+        height:70px;
+        margin-left: 0% !important;
+      }
+      /********************************/
+      
+    .main{
+    
+        float: left;
+        width: 65%;
+        height: 70px;
+          }
+          .main-nav{
+            width: 100%;
+            height: 70px;
+            float: left;
+           
+          }
+         
+      
+      .home-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+      
+      }
+      .about-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+        
+        
+      }
+      .product-nav{
+        font-size: 0px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+       
+      }
+      .home-nav p ,
+       .product-nav p,
+       .about-nav  p{
+          margin-top:15%;
+          font-size: 18px;
+      }  
+      .main p a{
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(3, 3, 3);
+        margin-top: 35px;
+       
+       }
+      .main p a:hover{
+          background-color: rgb(30, 43, 43);
+          color: teal;
+          padding: 10px 16px  10px  16px  ;
+        } 
+      
+      
+          
+    
+          /********************************/
+          .login{
+        
+            width: 15%;
+            height: 70px; 
+            position: relative;
+            display: inline-block;
+            
+        }
+        .login b{
+          float: left;
+          margin-left: 3%;
+          margin-top: 15%;
+          cursor: pointer;
+          color: red;
+          font-weight: bold;
+          font-size: 20px;
+      }
+  /********************************/
+  .head-part{
+    width: 100%;
+    height:300px;
+ position: relative;
+    
+} 
+.head-part img{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    
+  }  .get-started-part{
+    width: 100%;
+    height: 400px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 400px;
+
+}
+.get-started-img img{
+    width: 90%;
+    height: 200px;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 100px;
+    float: left;
+  
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 250px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 300px;
+    float: left;
+
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+ 
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+
+  /********************************/
+}
+ /********************************************************/
+ @media (min-width:921px) and (max-width:1200px){
+
+    .section{
+        width: 100%;
+        height: 1300px;
+        
+      }
+      /***********************************/
+      .nav1{
+        float: right;
+        width: 100%;
+        height:30px;
+    
+    }  
+    
+    .parent_nav1 .nav1{
+        float: right;
+        list-style: none;
+        width: 100%;
+        height:30px;
+    }
+    .parent_nav1 .nav1 ul li{
+        display: inline-block;
+        margin: 3px 10px 5px 15px ;
+        font-size: 14px;
+        
+        
+    }
+    /********************************/
+    .parent_nav2{
+      width:100%;
+      height:70px;
+      background-color: whitesmoke;
+     
+    }
+
+    
+      /********************************/
+      .logo{
+        width: 20%;
+        height:70px;
+        float: left;
+        
+      }
+      .logo img{
+        width: 60%;
+        height:70px;
+        margin-left: 0% !important;
+      }
+      /********************************/
+      
+    .main{
+    
+        float: left;
+        width: 65%;
+        height: 70px;
+          }
+          .main-nav{
+            width: 100%;
+            height: 70px;
+            float: left;
+           
+          }
+         
+      
+      .home-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+      
+      }
+      .about-nav{
+        font-size: 20px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+        
+        
+      }
+      .product-nav{
+        font-size: 0px;
+        width:32%;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+        float:left;
+       
+      }
+      .home-nav p ,
+       .product-nav p,
+       .about-nav  p{
+          margin-top:7%;
+          font-size: 18px;
+      }  
+      .main p a{
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(3, 3, 3);
+        margin-top: 35px;
+       
+       }
+      .main p a:hover{
+          background-color: rgb(30, 43, 43);
+          color: teal;
+          padding: 10px 16px  10px  16px  ;
+        } 
+      
+      
+          
+    
+          /********************************/
+          .login{
+        
+            width: 15%;
+            height: 70px; 
+            position: relative;
+            display: inline-block;
+            
+        }
+        .login b{
+          float: left;
+          margin-left: 3%;
+          margin-top: 7%;
+          cursor: pointer;
+          color: red;
+          font-weight: bold;
+          font-size: 20px;
+      }
+  /********************************/
+  .head-part{
+    width: 100%;
+    height:300px;
+ position: relative;
+    
+} 
+.head-part img{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    
+  }  .get-started-part{
+    width: 100%;
+    height: 400px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 400px;
+
+}
+.get-started-img img{
+    width: 60%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 100px;
+    float: left;
+  
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 300px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 250px;
+    float: left;
+
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+ 
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 25px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:95%;
+    margin-left: 2.5%;
+    height: 150px;
+    float: left;
+   
+}
+
+/********************************/
+} 

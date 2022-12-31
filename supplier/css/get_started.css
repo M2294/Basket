@@ -1,0 +1,302 @@
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.s-space{
+    width: 100%;
+    height: 30px;
+   
+}
+.l-space{
+    width: 100%;
+    height: 70px;
+   
+} 
+.section{
+    width: 100%;
+    height: 1300px;
+}
+.parent_nav2{
+    width:100%;
+    height:70px;
+    background-color: whitesmoke;
+    
+}
+.parent_nav2 .nav2{
+    float: left;
+    list-style: none;
+    width: 100%;
+    height:70px;
+    
+} 
+.logo{
+    width: 20%;
+    height:70px;
+    float: left;
+  
+ 
+  }
+  .logo img{
+    margin-left: 25%;
+  }
+/***************************************/
+  .main{
+
+    float: left;
+    width: 50%;
+    height: 70px;
+      }
+      .main-nav{
+        width: 100%;
+        height: 70px;
+        float: left;
+       
+      }
+     
+  
+  .home-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+ 
+  }
+  .about-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+  .product-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+   
+  }
+  .home-nav p ,
+   .product-nav p,
+   .about-nav  p{
+      margin-top:10%;
+  }  
+  .main p a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-top: 35px;
+   
+   }
+  .main p a:hover{
+      background-color: rgb(30, 43, 43);
+      color: teal;
+      padding: 20px 16px  22px  16px  ;
+    } 
+  
+ 
+/** *************************************/
+
+
+     .login{
+    
+        width:30%;
+        height: 70px; 
+        position: relative;
+        display: inline-block;
+        
+    }
+    
+    .login b{
+        float: left;
+        margin-left: 40%;
+        margin-top: 5%;
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+    }
+     .login b:hover{
+        color: teal;
+       
+    }
+
+
+.head-part{
+    width: 100%;
+    height:450px;
+ position: relative;
+    
+}
+.head-part img{
+    width: 100%;
+    height: 400px;
+    opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+/*********************************/
+.get-started-part{
+    width: 100%;
+    height: 300px;
+   
+}
+/*********************************/
+
+.get-started-img{
+    width:50%;
+    float: left;
+    height: 300px;
+
+}
+.get-started-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+/*********************************/
+
+.get-started-b{
+    width:50%;
+    height: 150px;
+    float: left;
+    
+}
+/*********************************/
+
+.get-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+    
+}
+.get-b h1{
+    
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+/*********************************/
+
+.get-started-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+    
+}
+
+.get-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+    
+}
+
+/*********************************/
+
+.signup-part{
+    width: 100%;
+    height: 300px;
+  
+}
+/*********************************/
+
+.signup-part-img{
+    width:50%;
+    float: left;
+    height: 300px;
+ 
+}
+.signup-part-img img{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+/*********************************/
+
+.signup-part-b{
+    width:50%;
+    height: 150px;
+    float: left;
+
+}
+
+
+.sign-b{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+  
+}
+
+
+.sign-b h1{
+    
+    margin-top: 10%;
+    font-size: 35px;
+}
+/*********************************/
+
+.signup-part-b2{
+    width:50%;
+    height: 150px;
+    float: left;
+  
+}
+
+.sign-b2{
+    width:90%;
+    margin-left: 5%;
+    height: 150px;
+    float: left;
+   
+}
+
+
+/*********************************/
+
+
+
+.footer {
+    width:100%;
+    height:45px;
+    background-color:rgb(30, 43, 43);
+  }
+  .footer p{
+    font-weight: bold;
+    right: 350px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color:teal;
+  }

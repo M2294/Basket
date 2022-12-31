@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name= "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+    <meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <title>BASKET</title>
+
+    <link rel="stylesheet" href="css/edit-item.css">
+    <link rel="stylesheet" href="css/media-edit-item.css">
+</head>
+<!---------------------Start JQ----------------------------->
+<script>
+
+  </script>
+<!---------------------EndJQ----------------------------->
+<body>
+    <section>
+        <div class="section">
+
+          <div class="parent_nav2">
+            <div class="nav2">
+                <nav>
+<!--*****************************************************************************-->
+          <div class="logo">
+            <a href="supplier-profile.html"><img src="../img/logo 70 .png"></a> 
+               
+             </div> 
+<!--*****************************************************************************-->                
+             <div class="main">
+                <p><a href="supplier-profile.html">Profile</a></p>
+               <p><a href="edit-supplier.html">Edit Profile</a></p>
+               <p><a href="add-item.html">Add Items</a></p>
+               <p><a href="my-items.html">My Items</a></p>
+               </div>
+<!--*****************************************************************************-->
+               <div class="logout">
+            
+                <a href="get_started.html"><b>LogOut</b></a> 
+                </div>  
+
+               </nav>
+               </div>
+        </div>
+                   
+ <!--------------------------------------------------------------------->
+ <h3>Edit Item</h3>
+
+ <div class="container">
+   <form action="/action_page.php">
+     <label>ID</label>
+     <input type="text" id="fname" name="id" >
+ 
+     <label >Product Name</label>
+     <input type="text" id="lname" name="name" >
+
+     <label >Price</label>
+     <input type="text" id="price" name="price" >
+
+     <label >Short Description</label>
+     <input type="text" id="short" name="short" >
+ 
+     <label >Category</label>
+     <select id="cat" name="cat">
+       <option > Mobiles & Tablets</option>
+       <option >Computer & Networking</option>
+       <option >Electronics</option>
+       <option >Home Appliances</option>
+       <option >Kitchen Tools </option>
+       <option >Home Tools</option>
+       <option >Health & Beauty </option>
+       <option > Games</option>
+       <option >Toys </option>
+       <option > Books</option>
+       <option > Sport & Fitness</option>
+       <option > Women Fashion</option>
+       <option >Men Fashion </option>
+       <option >Kids Fashion </option>
+       <option >Baby Accessories </option>
+     
+     </select>
+ 
+     <label >Full Description</label>
+     <textarea id="full" name="full" style="height:150px"></textarea>
+
+     <label >Main photo </label><br><br>
+     <input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
+     <br>
+     <label >Behind Photo </label><br><br>
+     <input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
+     <br>
+     <label >Left photo </label><br><br>
+     <input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
+     <br>
+     <label >Right photo </label><br><br>
+     <input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
+     <br>
+
+     <a href="my-items.html"><input  type="h" value="Save Edit"/></a>
+     <input type="h" value="Delete">
+   </form>
+ </div>
+
+ <div class="photo-product">
+
+  <div class="main-photo">
+   <img src="" alt="Main Photo">
+  </div>
+   
+  <div class="behind-photo">
+    <img src="" alt="Behind Photo">
+  </div>
+  <div class="left-photo">
+    <img src="" alt="Left Photo">
+  </div>
+  <div class="right-photo">
+    <img src="" alt="Right Photo">
+  </div> 
+
+</div>
+
+
+ </div>
+
+ <!--------------------------------------------------------------------->
+    </section>
+
+
+    <div class="footer">
+        <p>All Rights Reserved BASKET &copy;2020</p>
+       </div>
+</body>
+</html>

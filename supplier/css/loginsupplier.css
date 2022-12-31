@@ -1,0 +1,269 @@
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.s-space{
+    width: 100%;
+    height: 30px;
+   
+}
+.l-space{
+    width: 100%;
+    height: 70px;
+   
+} 
+.section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.parent_nav2{
+    width:100%;
+    height:70px;
+    background-color: whitesmoke;
+    
+}
+.parent_nav2 .nav2{
+    float: left;
+    list-style: none;
+    width: 100%;
+    height:70px;
+    
+} 
+.logo{
+    width: 20%;
+    height:70px;
+    float: left;
+  
+ 
+  }
+  .logo img{
+    margin-left: 25%;
+  }
+/***************************************/
+  .main{
+
+    float: left;
+    width: 50%;
+    height: 70px;
+      }
+      .main-nav{
+        width: 100%;
+        height: 70px;
+        float: left;
+       
+      }
+     
+  
+  .home-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+ 
+  }
+  .about-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+  .product-nav{
+    font-size: 20px;
+    width:33.3%;
+    text-align: center;
+    height: 70px;
+    cursor: pointer;
+    float:left;
+   
+  }
+  .home-nav p ,
+   .product-nav p,
+   .about-nav  p{
+      margin-top:10%;
+  }  
+  .main p a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    margin-top: 35px;
+   
+   }
+  .main p a:hover{
+      background-color: rgb(30, 43, 43);
+      color: teal;
+      padding: 20px 16px  22px  16px  ;
+    } 
+  
+ 
+/** *************************************/
+
+
+     .supplier{
+    
+        width:30%;
+        height: 70px; 
+        position: relative;
+        display: inline-block;
+        
+    }
+    
+    .supplier b{
+        float: left;
+        margin-left: 40%;
+        margin-top: 5%;
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+    }
+     .supplier b:hover{
+        color: teal;
+       
+    }
+    .forget{
+       float: right;
+       margin-right:5% ; 
+        width:30%;
+        height:300px;
+        margin-top: 10%;
+       
+      }
+      .forget .password h1 {
+        text-align: center;
+      }
+      .forget .password h4 {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .forget .password input {
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 80%;
+        margin-left: 7%;
+      } 
+      /**********************************/
+      .container {
+        background-color: whitesmoke;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.22);
+        position: relative;
+        overflow: hidden;
+        width:50%;
+       height:400px;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+      }
+
+.sign-in-container {
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height:350px;
+  }
+      /********** form-container for sign/login ******************************/
+      .form-container h1 {
+        font-weight: bold;
+        margin: 0px ;
+      
+      }
+      
+      .form-container span {
+        font-size: 12px;
+      }
+      .form-container input {
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 70%;
+      }
+      /***********************/
+      \\forget password 
+      
+      .form-container a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 15px 0;
+      }
+      /***********************/
+      .form-container form{
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 50px;
+        height: 100%;
+        text-align: center;
+      }
+      /***********************/
+      .social-container {
+        margin: 20px 0;
+      }
+      
+      .social-container a {
+        border: 1px solid #dddddd;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        height: 40px;
+        width: 40px;
+      }
+      /***********************/
+      
+      
+      button {
+        border-radius: 20px;
+        border: 1px solid rgb(30, 43, 43);
+        background: rgb(30, 43, 43);
+      color:teal;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        margin-top: 5%;
+      }
+      
+      button:active {
+        transform: scale(0.95);
+      }
+      
+      button:focus {
+        outline: none;
+      }
+      
+
+
+    .footer {
+        width:100%;
+        height:45px;
+        background-color:rgb(30, 43, 43);
+      }
+      .footer p{
+        font-weight: bold;
+        right: 350px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 18px;
+        color:teal;
+      }
