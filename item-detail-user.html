@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name= "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+    <meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/item-detail-user.css">
+    <link rel="stylesheet" href="css/i-detail-media.css">
+    <title>BASKET</title>
+</head>
+<!---------------------Start JQ----------------------------->
+<script>
+  $(document).ready(function(){
+     $('.photo').mouseover(function(){
+         let image_url=$(this).attr('src');
+         $('.mainimg').fadeOut(100,function(){
+             $(this).attr('src',image_url);
+         }).fadeIn(100)
+     })
+ })
+  </script>
+  <!---------------------EndJQ----------------------------->
+<body>
+<!--------------------Start Section---------------------->
+<section>
+   
+  <!--*****************************************************************************-->
+    
+  <!--*****************************************************************************-->
+  <div class="parent_nav1">
+      <div class="nav1">
+          <nav>
+          <ul>
+              <li> <a href="track.html"> Track Order </a></li>
+              <li> <a href="supplier/get_started.html"> Be Supplier </a></li>
+              <li> <a href="contact-feed.html"> Contact Us </a></li>
+          </ul>
+      </nav>
+      </div>
+  </div>
+    <!--*****************************************************************************-->
+    <div class="parent_nav2">
+      <div class="nav2">
+          <nav>
+    <!--*****************************************************************************-->
+    <div class="logo">
+      <a href="index.html"><img src="img/logo 70 .png"></a> 
+         
+       </div>
+    <!--*****************************************************************************-->            
+    <div class="main">
+             
+
+
+      <div class="home-nav">
+     <p> <a href="index.html">Home</a></p>
+      </div>
+    
+    
+     <div class="about-nav">
+     <p > <a href="aboutus.html">About Us</a></p>
+     </div>
+    
+     <div class="product-nav">
+     <p > <a href="products.html">Products</a></p>
+    </div>
+    
+    
+    </div>
+    <!--*****************************************************************************-->
+    
+   
+    <div class="droplogin">
+     
+       <a href="index.html"> <b> Logout</b></a>
+       </div>
+
+
+
+    <!--*****************************************************************************-->
+           <div class="serach">
+           <div class="serach-box">
+              <input  class="search-txt" type="text" name="search" placeholder="Type to search">
+               <a class="search-btn" href="#"><i class="fas fa-search"></i> </a>
+          </div>
+           </div>
+    <!--*****************************************************************************-->
+    <div class="check">
+   
+      <a href="cart.html"><button>My Cart <i  class="fa fa-shopping-cart icon "></i> </button></a>
+      </div>
+   
+          </nav>
+      </div>
+  </div>  
+<!--*****************************************************************************-->
+  <div class="s-space"></div> 
+
+<div class="section">
+
+  
+  <div class="container">
+
+    <div class="info2">
+
+      <div class="pro-no">
+      <p>Product No. : </p> 
+    </div>
+
+    <div class="pro-brand">
+      <p>Product Brand : </p> 
+    </div>
+
+    </div>
+  
+    <div class="photo-product">
+      <img class="mainimg" src="img/default copy.jpg" alt="" width="100%" height="300">
+
+        <div class="photoo">
+          <img class="photo" src="img/default copy.jpg" alt="" width="50" height="50">
+          <img class="photo" src="img/default-2.jpg" alt="" width="50" height="50">
+          <img class="photo" src="img/default-4.jpg" alt="" width="50" height="50">
+          <img class="photo" src="img/default.jpg" alt="" width="50" height="50">
+        </div>
+
+    </div>
+  
+  
+  <div class="info">
+     <div class="card">
+
+  <div class="full">
+    <div class="desc">
+      <p >Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum
+        Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    </div>
+  </div> 
+
+  <div class="full2">
+
+  <div class="all1">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+  </div>
+
+
+
+ <div class="all2">
+
+    <div class="qty">
+      <label>Qty:</label>
+        <input type="number" value="1" >
+      </div>
+      
+    
+      <div class="size">
+        <label for="size">Choose SIZE:</label><br><br><br>
+        <select>
+          <option >Small</option>
+          <option >Medium</option>
+          <option >Large</option>
+          
+        </select>
+      
+       </div>
+
+  </div>
+
+
+  </div>
+
+  </div>
+  <p><button class="btn-cart">Add To Cart</button></p>
+
+   </div>
+  
+  
+   
+  
+  
+  </div>
+   
+
+
+ 
+</div>
+
+<div class="s-space"></div> 
+</section>
+<!--------------------EndSection------------------------->
+<!--------------------Start Footer----------------------->
+
+  <div class="footer">
+    <p>All Rights Reserved BASKET &copy;2020</p>
+   </div>
+ 
+
+
+<!--------------------End Footer------------------------->
+
+</body>
+</html>

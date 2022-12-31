@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name= "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+    <meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/media-about.css">
+    <title>BASKET</title>
+</head>
+<!---------------------Start JQ----------------------------->
+<script>    
+    $(document).ready(function(){
+ 
+   $(".shopping1").mouseover(function(){
+     $("#pop_h3").hide();
+     $(".shopping").show();
+   });
+   $(".shopping1").mouseleave(function(){
+     $("#pop_h3").show();
+     $(".shopping").hide();
+   });
+ 
+ 
+   $(".shopping2").mouseover(function(){
+     $("#pop_h3").hide();
+     $(".refund").show();
+   });
+   $(".shopping2").mouseleave(function(){
+     $("#pop_h3").show();
+     $(".refund").hide();
+   });
+ 
+ 
+   $(".shopping3").mouseover(function(){
+     $("#pop_h3").hide();
+     $(".shipping").show();
+   });
+   $(".shopping3").mouseleave(function(){
+     $("#pop_h3").show();
+     $(".shipping").hide();
+   });
+ 
+ 
+   $(".shopping4").mouseover(function(){
+     $("#pop_h3").hide();
+     $(".quality").show();
+   });
+   $(".shopping4").mouseleave(function(){
+     $("#pop_h3").show();
+     $(".quality").hide();
+   });
+ });
+</script>
+
+  <!---------------------EndJQ----------------------------->
+<body>
+<!--------------------Start Section---------------------->
+<section>
+  
+  <!--*****************************************************************************-->
+    
+  <!--*****************************************************************************-->
+  <div class="parent_nav1">
+      <div class="nav1">
+          <nav>
+          <ul>
+              <li> <a href="track.html"> Track Order </a></li>
+              <li> <a href="supplier/get_started.html"> Be Supplier </a></li>
+              <li> <a href="contact-feed.html"> Contact Us </a></li>
+          </ul>
+      </nav>
+      </div>
+  </div>
+ <!--*****************************************************************************-->
+ <div class="parent_nav2">
+  <div class="nav2">
+      <nav>
+<!--*****************************************************************************-->
+<div class="logo">
+  <a href="index.html"><img src="img/logo 70 .png"></a> 
+    
+   </div>
+<!--*****************************************************************************-->            
+<div class="main">
+             
+
+
+  <div class="home-nav">
+ <p> <a href="index.html">Home</a></p>
+  </div>
+
+
+ <div class="about-nav">
+ <p > <a href="aboutus.html">About Us</a></p>
+ </div>
+ 
+ <div class="product-nav">
+ <p > <a href="products.html">Products</a></p>
+</div>
+
+ 
+</div>
+<!--*****************************************************************************-->
+
+
+<div class="droplogin">
+ 
+   <a href="index.html"> <b> Logout</b></a>
+   </div>
+
+
+
+<!--*****************************************************************************-->
+       <div class="serach">
+       <div class="serach-box">
+          <input  class="search-txt" type="text" name="search" placeholder="Type to search">
+           <a class="search-btn" href="#"><i class="fas fa-search"></i> </a>
+      </div>
+       </div>
+<!--*****************************************************************************-->
+<div class="check">
+
+  <a href="cart.html"><button>My Cart <i  class="fa fa-shopping-cart icon "></i> </button></a>
+  </div>
+
+      </nav>
+  </div>
+</div> 
+ <!--*****************************************************************************-->
+
+    <div class="section">
+    <div class="s-space"></div> 
+<div class="about-p">
+    <h2>ABOUT BASKET</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+       Voluptas assumenda iusto soluta officia alias explicabo <br>
+       sapiente adipisci debitis consequuntur esse quam voluptate, <br>
+       dignissimos ipsam nam officiis similique architecto at quaerat!<br>
+       sapiente adipisci debitis consequuntur esse quam voluptate, <br>
+       dignissimos ipsam nam officiis similique architecto at quaerat!</p>
+       <div class="social">
+        <ul>
+      <li> <a href=""><img src="img/icons8-facebook-48.png"></a> </li>
+      <li> <a href=""><img src="img/icons8-instagram-48.png"></a> </li>
+      <li> <a href=""><img src="img/icons8-play-button-48.png"></a> </li>
+      </ul>
+      </div> 
+</div>
+
+<div class="about-img">
+    <img src="img/logo 250.png" alt="logo">
+</div>
+
+<div class="stay-safe">
+    <h2>Stay Safe With BASKET</h2>
+   
+    
+</div>
+
+<div class="promises">
+    <div class="promise-img">
+ 
+    <img  class="shopping1"src="img/shopping.png" alt="promise1">
+    <img  class="shopping2" src="img/refund.png" alt="promise1"> <Br> 
+    <img  class="shopping3"src="img/shipping.png" alt="promise1">
+    <img  class="shopping4" src="img/quality.png" alt="promise1">  
+    </div>
+
+    <div class="show-promise">
+        <h3 id="pop_h3">WE<br> PROMISE</h3>
+   
+        <h6  style="display:none"class="shopping">Here in Basket <br>you will found all your needs<br> in one place without <br>Searching alot .</h6>
+        <h6  style="display:none"class="refund">Here in basket <br>you will have the ability <br>to refund your money if the product <br> dosent match your requierment</h6>
+        <h6 style="display:none"class="shipping">Here in basket <br> our shipping takes only 48 hours <br>to get your needs and we are<br>  here for you 24/7  </h6>
+        <h6 style="display:none"class="quality">Here in basket <br>we have the best quality <br> in all our product and you <br>  will see it </h6>
+    </div>
+</div>
+
+
+<div class="partners">
+<h1>OUR PARTNERS</h1>
+<div class="img-partner">
+    <div class="imgg">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1"><br>
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1"><br>
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+    <img src="img/partner.png" alt="partner1">
+</div>
+</div>
+
+</div>
+
+    </div>
+ 
+<!--*****************************************************************************--> 
+ <div class="s-space"></div> 
+</section>
+<!--------------------EndSection------------------------->
+<!--------------------Start Footer----------------------->
+
+  <div class="footer">
+    <p>All Rights Reserved BASKET &copy;2020</p>
+   </div>
+ 
+
+
+<!--------------------End Footer------------------------->
+
+</body>
+</html>
