@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name= "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+    <meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/media-payment.css">
+    <title>BASKET</title>
+</head>
+<!---------------------Start JQ----------------------------->
+<script>
+   $(document).ready(function(){
+ 
+ $(".check").click(function(){
+   $(".info").show(1000);
+   $(".container").animate({height:'500px'});
+  
+ }); 
+ 
+
+ 
+
+});
+
+
+  </script>
+  <!---------------------EndJQ----------------------------->
+<body>
+<!--------------------Start Section---------------------->
+<section>
+  
+  <!--*****************************************************************************-->
+    
+  <!--*****************************************************************************-->
+  <div class="parent_nav1">
+      <div class="nav1">
+          <nav>
+          <ul>
+              <li> <a href="track.html"> Track Order </a></li>
+              <li> <a href="supplier/get_started.html"> Be Supplier </a></li>
+              <li> <a href="contact-feed.html"> Contact Us </a></li>
+          </ul>
+      </nav>
+      </div>
+  </div>
+    <!--*****************************************************************************-->
+    <div class="parent_nav2">
+      <div class="nav2">
+          <nav>
+    <!--*****************************************************************************-->
+    <div class="logo">
+      <a href="index.html"><img src="img/logo 70 .png"></a> 
+        
+       </div>
+    <!--*****************************************************************************-->            
+    <div class="main">
+             
+
+
+      <div class="home-nav">
+     <p> <a href="index.html">Home</a></p>
+      </div>
+    
+    
+     <div class="about-nav">
+     <p > <a href="aboutus.html">About Us</a></p>
+     </div>
+    
+     <div class="product-nav">
+     <p > <a href="products.html">Products</a></p>
+    </div>
+    
+    
+    </div>
+    <!--*****************************************************************************-->
+    
+   
+    <div class="droplogin">
+     
+       <a href="index.html"> <b> Logout</b></a>
+       </div>
+
+
+
+    <!--*****************************************************************************-->
+           <div class="serach">
+           <div class="serach-box">
+              <input  class="search-txt" type="text" name="search" placeholder="Type to search">
+               <a class="search-btn" href="#"><i class="fas fa-search"></i> </a>
+          </div>
+           </div>
+    <!--*****************************************************************************-->
+    <div class="chick">
+   
+      <a href="cart.html"><button>My Cart <i class="fa fa-shopping-cart "></i> </button></a>
+      </div>
+   
+          </nav>
+      </div>
+    </div> 
+
+<!--*****************************************************************************-->
+  <div class="s-space"></div> 
+<!--*****************************************************************************-->
+<div class="section">
+  <h2> Checkout Form Payment</h2>
+  <div class="container ">
+   
+
+<div class="c-d">
+<div class="check">
+  <input type="checkbox" id="card" name="card" value=" Card">
+  <label for="card">Credit or Debit Card</label><br>
+</div>
+
+<div class="cards">
+    <label for="fname">Accepted Cards</label>
+    <div class="icon-container">
+      <i class="fab fa-cc-visa" style="color:navy;"></i>
+      <i class="fab fa-cc-visa" style="color:blue;"></i>
+      <i class="fab fa-cc-visa" style="color:red;"></i>
+      <i class="fab fa-cc-visa" style="color:orange;"></i>
+    </div>
+</div>
+</div>
+
+
+
+<div class="info  " style="display: none;">
+<h1>Put your Visa Info</h1>
+
+<div class="s-space"></div>
+
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Name On Card" name="credit">
+    </div>
+    
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Credit Card Number" name="number">
+    </div>
+   
+
+
+    <div class="input-container " >
+      <i class="fad fa-calendar-week icon"></i>
+      <input class="input-field row1" type="text" placeholder="Exp Month" name="month">
+      <i class="fad fa-calendar-week icon "></i>
+      <input class="input-field  " type="text" placeholder="Exp Year" name="year">
+  
+    </div>
+
+</div>
+
+<div class="s-space"></div>    
+
+    <div class="cash">
+    <input type="checkbox" id="cach" name="card" value="cash">
+    <label for="card">Cash on delivery</label><br>
+    </div>
+
+    <div class="s-space"></div> 
+
+    <div class="order">
+      <a href="done-order.html"><button class="btn">Place order</button></a>
+    </div>
+
+    </div>
+<!--*****************************************************************************--> 
+</div> 
+<div class="s-space"></div> 
+</section>
+<!--------------------EndSection------------------------->
+<!--------------------Start Footer----------------------->
+
+  <div class="footer">
+    <p>All Rights Reserved BASKET &copy;2020</p>
+   </div>
+ 
+
+
+<!--------------------End Footer------------------------->
+
+</body>
+</html>

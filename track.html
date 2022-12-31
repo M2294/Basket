@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name= "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+    <meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/track.css">
+    <link rel="stylesheet" href="css/mediatrack.css">
+    <title>BASKET</title>
+</head>
+<!---------------------Start JQ----------------------------->
+<script>
+ $(document).ready(function(){
+
+$('.send').click(function(){
+  $(".parent-progress").show();
+});
+
+$('.close').click(function(){
+  $('.parent-progress').remove();
+});
+
+
+ });
+
+  </script>
+  <!---------------------EndJQ----------------------------->
+<body>
+<!--------------------Start Section---------------------->
+<section>
+  
+  <!--*****************************************************************************-->
+    
+  <!--*****************************************************************************-->
+  <div class="parent_nav1">
+    <div class="nav1">
+        <nav>
+        <ul>
+            <li> <a href="track.html"> Track Order </a></li>
+            <li> <a href="supplier/get_started.html"> Be Supplier </a></li>
+            <li> <a href="contact-feed.html"> Contact Us </a></li>
+        </ul>
+    </nav>
+    </div>
+</div> 
+
+    <!--*****************************************************************************-->
+    <div class="parent_nav2">
+      <div class="nav2">
+          <nav>
+    <!--*****************************************************************************-->
+            <div class="sidee">
+                <div class="side-img">
+                  <a href="index.html"><img src="img/logo 70 .png " alt="logo"></a> 
+               </div>
+               
+             </div>
+    <!--*****************************************************************************-->            
+             <div class="main">
+               
+  
+  
+                     <div class="home-nav">
+                    <p> <a href="index.html">Home</a></p>
+                     </div>
+  
+  
+                    <div class="about-nav">
+                    <p > <a href="aboutus.html">About Us</a></p>
+                    </div>
+  
+                    <div class="product-nav">
+                    <p > <a href="products.html">Products</a></p>
+                  </div>
+  
+                
+            </div>
+    <!--*****************************************************************************-->
+    <div class="access">
+  
+      
+       <div class="acc-log">
+      <a href="index.html">  <b > logOut</b></a>
+      </div>
+  
+  
+                 
+  
+       </div>
+    <!--*****************************************************************************-->
+           <div class="serach">
+           <div class="serach-box">
+              <input  class="search-txt" type="text" name="search" placeholder="Type to search">
+               <a class="search-btn" href="#"><i class="fas fa-search"></i> </a>
+          </div>
+           </div> 
+    <!--*****************************************************************************-->
+          </nav>
+      </div>
+    </div>
+
+  <div class="s-space"></div> 
+
+<div class="section">
+
+<div class="parent-track">
+  <div class="basket">
+<div class="basket-photo">
+  <img src="img/cart track.png">
+</div>
+  </div>
+
+  <div class="headline">
+    <div class="pargraph">
+
+      <div class="track1">
+      <h1>Track Your Order </h1>
+    </div>
+
+    <div class="track2">
+      <h4> You can eazily track orders and follow your shippment </h4>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="input-order">
+    <div class="order1">
+
+      <div class="input-p1">
+        <input type="text" placeholder="Enter Order Number" name="t_order">
+      </div>
+
+      <div class="input-p2">
+        <div class="size-btn">
+        <button class="send">Send</button>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<div class="s-space"></div> 
+
+<div class="parent-progress" style="display: none;">
+
+<div class="client-info">
+  <div class="closex">
+    <i class="fas fa-window-close close"></i>
+  </div>
+  <div class="name">
+    <p>Client Name : </p>
+  </div>
+
+  <div class="add">
+    <p>Client Address: </p>
+  </div>
+
+  <div class="number">
+    <p>Order Number : </p>
+  </div>
+
+</div>
+
+<div class="progress">
+  <div class="icons-pro">
+    <ul>
+      <li><img src="img/confirmed.png"><br>
+        <i class="fa fa-check"></i>
+      <p>Confirmed Order</p>
+      </li>
+      <li><img src="img/progress.png"><br>
+        <i class="fa fa-check"></i>
+        <p>In Progress</p>
+      </li>
+      <li><img src="img/quality 2.png"><br>
+        <i class="fa fa-sync"></i>
+        <p>In Quality</p>
+      </li>
+      <li><img src="img/shippment.png"><br>
+        <i class="fa fa-times"></i>
+        <p> In Shippment </p>
+      </li>
+      <li><img src="img/delivered.png"><br>
+        <i class="fa fa-times"></i>
+        <p>Delivered</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+</div>
+
+
+    </div>
+ 
+<!--*****************************************************************************--> 
+ <div class="s-space"></div> 
+</section>
+<!--------------------EndSection------------------------->
+<!--------------------Start Footer----------------------->
+
+  <div class="footer">
+    <p>All Rights Reserved BASKET &copy;2020</p>
+   </div>
+ 
+
+
+<!--------------------End Footer------------------------->
+
+</body>
+</html>
